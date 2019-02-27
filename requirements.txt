@@ -1,0 +1,7 @@
+pyct
+jupyter
+ipython
+papermill
+pandas
+# pyviz
+networkx
