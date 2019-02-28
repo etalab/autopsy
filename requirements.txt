@@ -1,7 +1,21 @@
-pyct
+requests
+tqdm
+
 jupyter
 ipython
+
 papermill
+
 pandas
+scikit-learn
+
+agate
+agate-excel
+chardet
+
 # pyviz
+holoviews
+datashader
+
 networkx
+python-louvain
