@@ -1,0 +1,11 @@
+version: '2.1'
+services:
+    nbviewer:
+        image: jupyter/nbviewer
+        restart: always
+        volumes:
+            - ./buckets/notebooks:/notebooks
+        ports:
+            - 4010:8080
+        command: python -m nbviewer --port=8080 --localfiles=/notebooks
+
